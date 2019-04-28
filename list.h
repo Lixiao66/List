@@ -11,19 +11,20 @@
 #include <stdlib.h>
 
 /*定义链表节点的结构体*/
-typedef struct node{
+typedef struct node
+{
     int data;  /*节点中存放的数据*/
 	struct node *next;  /*下一节点*/
-}Linklist;
+}LinkList;
 
-extern Linklist* List_create();
-extern int List_empty(Linklist *L);
-extern int NodeNum(Linklist *L);
-extern int Node_insert(Linklist *L,int num,int data);
-extern void List_traverse(Linklist *L);
-extern int Node_delete(Linklist *L,int num);
-extern int Node_found(Linklist *L,int num);
-extern int Node_set(Linklist *L,int num,int data);
-extern void Linklist_delete(Linklist *L);
+extern LinkList* CreateList();
+extern int EmptyList(LinkList *L);
+extern int NodeNum(LinkList *L);
+extern int InsertNode(LinkList *L, int num, int data);
+extern void TraverseList(LinkList *L);
+extern int DeleteNode(LinkList *L, int num);
+extern int FoundNode(LinkList *L, int num);
+extern int SetNode(LinkList *L, int num, int data);
+extern void DeleteLinkList(LinkList *L);
 
 #endif
