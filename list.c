@@ -98,7 +98,7 @@ void TraverseList(LinkList *L)
 {
     LinkList *p = L;
     int num = 0;
-    if (ListEmpty(L))
+    if (EmptyList(L))
     {
         printf ("list is empty\n");
         return; 
@@ -184,7 +184,7 @@ int SetNode(LinkList *L, int num, int data)
         return 0;
     }
 
-    for ( i=1; i<num; i++)
+    for (i=1; i<num; i++)
     {
         s = s->next;
     }
@@ -201,7 +201,8 @@ void DeleteLinkList(LinkList *L)
 {
     LinkList *p =NULL;  
     LinkList *s = L;
-    while(s->next != NULL){
+    while(s->next != NULL)
+    {
         p = s->next;
         s = p->next;
         free(p);
