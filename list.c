@@ -1,8 +1,8 @@
 /*********************
     File Name:list.c
-    Author:??Ф
+    Author:李肖
     Mail:mark.li@fanvil.com
-    Description: ??????????????????
+    Description: 链表功能(创建，增，删，改，查)函数接口的实现
 *********************/
 
 #include "list.h"
