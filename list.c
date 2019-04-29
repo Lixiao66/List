@@ -8,7 +8,7 @@
 
 /**
 *@Description:´´½¨Ò»¸öÁ´±í
-*@return: ³É¹¦:Ö¸ÏòÁ´±íµÄÖ¸Õë	§Ê§°Ü:NULL.
+*@return: ³É¹¦:Ö¸ÏòÁ´±íµÄÖ¸Õë   Ê§°Ü:NULL
 */
 LinkList *CreateList ()
 {
