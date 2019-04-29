@@ -114,7 +114,7 @@ void TraverseList(LinkList *L)
 *Description:删除链表中的某一节点
 *@param L - 指向链表的指针
 *@param num - 链表的节点序号
-*@return: 成功过:1  失败:0
+*@return: 成功:1  失败:0
 */
 int DeleteNode (LinkList *L, int num)
 {
